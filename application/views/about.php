@@ -1,9 +1,4 @@
-<h1>
-    this is aboout file
-</h1>
-      <?php
-    echo "<br>";
-        // print_r ($names);
+<?php
 
         foreach($names as $name){
             ?>
@@ -16,5 +11,4 @@
         //  <!-- echo   $name ."<br>"; -->
         }
 
-        ?>
-
+?>
