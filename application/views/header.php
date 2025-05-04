@@ -380,6 +380,12 @@
                                     <span>Category</span>
                                 </a>
                             </li>
+                            <li>
+                                <a href="SettingsController/pincode" class="waves-effect">
+                                    <i class="uim uim-airplay"></i>
+                                    <span>pincode</span>
+                                </a>
+                            </li>
 
                             <!-- <li>
                                 <a href="javascript: void(0);" class="has-arrow waves-effect">
