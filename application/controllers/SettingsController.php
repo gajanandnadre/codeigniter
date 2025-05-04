@@ -27,15 +27,17 @@ class SettingsController extends CI_Controller{
     }
     
     public function banner(){
-
-        $this->form_validation->set_rules('banner','pincode','required|trim');
+        
+        if(empty($_FILES['bann_image']['name'])){
+            $this->form_validation->set_rules('bann_image','banner image','required|trim');
+        }
         $this->form_validation->set_rules('status','status','required|trim');
         if($this->form_validation->run()){
             $post = $this->input->post();
            $check =   $this->SettingsModel->add_pincode($post);
            if($check){
             $this->session->set_flashdata('succMsg','Data inserted successfully');
-            redirect('SettingsController/pincode');
+            redirect('SettingsController/banner');
 
            }
         }else{

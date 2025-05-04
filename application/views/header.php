@@ -386,6 +386,12 @@
                                     <span>pincode</span>
                                 </a>
                             </li>
+                            <li>
+                                <a href="SettingsController/banner" class="waves-effect">
+                                    <i class="uim uim-airplay"></i>
+                                    <span>Banner</span>
+                                </a>
+                            </li>
 
                             <!-- <li>
                                 <a href="javascript: void(0);" class="has-arrow waves-effect">
