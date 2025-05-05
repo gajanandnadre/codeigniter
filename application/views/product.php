@@ -118,8 +118,36 @@
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="form-floating mb-3">
+                                                        <input type="text" class="form-control" name="bann_image"  id="floatingFirstnameInput" placeholder="">
+                                                        <label for="floatingFirstnameInput"> Meta Title </label>
+                                                    </div>
+                                                    <?= form_error('bann_image')?>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-floating mb-3">
+                                                        <input type="text" class="form-control" name="bann_image"  id="floatingFirstnameInput" placeholder="">
+                                                        <label for="floatingFirstnameInput"> Meta Keywords </label>
+                                                    </div>
+                                                    <?= form_error('bann_image')?>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-floating mb-3">
+                                                        <input type="text" class="form-control" name="bann_image"  id="floatingFirstnameInput" placeholder="">
+                                                        <label for="floatingFirstnameInput"> Meta Description </label>
+                                                    </div>
+                                                    <?= form_error('bann_image')?>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-floating mb-3">
                                                         <input type="file" class="form-control" name="bann_image"  id="floatingFirstnameInput" placeholder="">
-                                                        <label for="floatingFirstnameInput">Banner Image</label>
+                                                        <label for="floatingFirstnameInput">Product Image</label>
+                                                    </div>
+                                                    <?= form_error('bann_image')?>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-floating mb-3">
+                                                        <input type="file" class="form-control" name="bann_image"  id="floatingFirstnameInput" placeholder="">
+                                                        <label for="floatingFirstnameInput">Product Gallary Image</label>
                                                     </div>
                                                     <?= form_error('bann_image')?>
                                                 </div>
