@@ -97,3 +97,19 @@
 
 <!-- Mirrored from themesdesign.in/tocly/layouts/5.3.1/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 24 Nov 2023 08:52:54 GMT -->
 </html>
+
+<script>
+    function get_categories(cate_id){
+        $.ajax({
+            url : '<?php echo base_url('CategoryController/get_sub_cate'); ?>',
+            method : 'POST',
+            data : {cate_id:cate_id},
+            success : function(data){
+              $(".subcate").html(data);               
+            },
+            error : function(){
+
+            }
+        })
+    }
+</script>

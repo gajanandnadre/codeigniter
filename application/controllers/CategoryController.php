@@ -28,5 +28,10 @@ class CategoryController extends CI_Controller{
         }
     }
  
+    public function get_sub_cate(){
+      $cate_id = $this->input->post('cate_id');
+       $this->CategoryModel->get_sub_cate($cate_id);
+      
+    }
 
 }
