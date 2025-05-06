@@ -46,6 +46,7 @@ class SettingsController extends CI_Controller{
         $post = $this->input->post();
         $image = $this->upload->data();
         $post['bann_image'] = $image['file_name']; 
+        
            $check =   $this->SettingsModel->add_banner($post);
            if($check){
             $this->session->set_flashdata('succMsg','Data inserted successfully');
